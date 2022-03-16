@@ -2,15 +2,21 @@
 Programa feito para definir o tipo de cargo e salario empresarial do usuario,
 precisamente feito para informar o tipo de salario a cada cargo.
 */
-#include <stdio.h>
+#include <stdio.h>     //Biblioteca que puxa IntPut e OutPut
 
-int main()
+int main()      //Start em linguagem C
 {
-    char cargo[20];
-    printf("Digite o seu cargo empresarial e aperte ENTER\n");
-    scanf("%s", &cargo);
+    char cargo[20];  /*Variavel char para carectere combinada com [20]
+     feito para dar mais de 0 a 20 caractere em uma frase ou texto*/
+    printf("Digite o seu cargo empresarial e aperte ENTER\n");  //Mensagem mostrada ao usuário
+    scanf("%s", &cargo);    /*Lê o digito feito pelo usuário com o "%s" usado para char (caractere)
+    com mais de 1 digito, alocado a variavel criada chamada "cargo".
+    */
 
-    if(strcmp(cargo,"Diretor")==0)
+    if(strcmp(cargo,"Diretor")==0)  /*if, feito para "Se", else para "Senão", else if "Senão se"
+    "strcmp ==0)" comando que pega a string e compara com o digito que foi digitado pelo usuario e
+    foi scaneado/lido pelo "scanf". "
+    */
     {
         printf("O salario do diretor é R$15.000,00\n");
     }
