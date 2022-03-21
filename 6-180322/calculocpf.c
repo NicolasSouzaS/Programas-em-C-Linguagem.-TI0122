@@ -129,7 +129,6 @@ int main()
     else
     {
         iCPF[10] = 11-resto;
-        printf("CPF INVALIDO");
     }
 
     for(int i = 0; i <= 10; i++)
