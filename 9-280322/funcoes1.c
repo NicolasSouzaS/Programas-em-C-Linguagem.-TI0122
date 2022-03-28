@@ -34,21 +34,24 @@ void pularlinha(int qtdVezes)
 }
 
 
-void comparar(int v1, int v2)
+char *comparar(int v1, int v2)
 {
     if(v1>v2)
     {
-        printf("O primeiro número é maior que o segundo\n");
+        return "O primeiro número é maior que o segundo\n";
     }
-    else if(v1=v2)
+       else if(v1==v2)
     {
-        printf("Os dois números são iguais\n");
+        return "Os dois números são iguais\n";
     }
+    
     
     else
     {
-        printf("O segundo numero é maior que o primeiro\n");
+        return "O segundo numero é maior que o primeiro\n";
     }
+
+ 
 }
 
 void main()
@@ -68,7 +71,7 @@ void main()
 
     pularlinha(1);
 
-    comparar(num1, num2);
+    printf(comparar(num1, num2));
 
     pularlinha(2);
 }
