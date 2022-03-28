@@ -44,6 +44,7 @@ void comparar(int v1, int v2)
     {
         printf("Os dois números são iguais\n");
     }
+    
     else
     {
         printf("O segundo numero é maior que o primeiro\n");
