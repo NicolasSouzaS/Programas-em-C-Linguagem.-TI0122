@@ -6,8 +6,7 @@ com argumentos(parámetros), sem arumentos
 #include <stdio.h>
 #include <stdlib.h>
 
-void separadorHT()
-{
+void separadorHT(){
     printf("\n");
     for(int i = 1 ; i <= 50 ; i++)
     {
