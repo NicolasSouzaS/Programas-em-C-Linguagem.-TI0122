@@ -13,4 +13,5 @@ void main()
     soma(v,10);
     maiorValor(v,10);
     menorValor(v,10);
+    ordernar(v,10);
 }

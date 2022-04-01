@@ -46,4 +46,11 @@ void ordernar(int valores[], int tamanho){
         }
         valores [i+1] = x;
     }
+
+    for(int p = 0; p < tamanho ; p++)
+    {
+        printf("%d - ", valores[p]);
+    }
+
+
 }
